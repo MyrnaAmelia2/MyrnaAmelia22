@@ -1,0 +1,41 @@
+/* Fancy Caption Style */
+.bg-thumbup {
+	background:#000 url(../images/magnifier2.png) no-repeat 50% 50%;
+	margin:16px 15px 0 0;
+}
+
+.fancycaption {
+	position:relative;
+	overflow:hidden;
+	float:left;
+}
+
+.fancycaption .caption {
+	position:absolute;
+	background:#222;
+}
+
+.fancycaption-full .slide-top, .fancycaption-full .slide-bottom {
+	width:100%;
+	height:25%;
+}
+
+.fancycaption-full .slide-right, .fancycaption-full .slide-left {
+	width:25%;
+	height:100%;
+	top:0 !important;
+}
+
+.bg-magnifier {
+	background:#000 url(../images/magnifier1.png) no-repeat 50% 25%;
+	background:#000 url(../images/magnifier1.png) no-repeat 20% 35%\9; 
+	height:165px;
+}
+
+.slide-bottom  p {
+	color:#fff;
+	text-align:center;
+	margin:7px;
+	font-family:Arial,sans-serif;
+	font-size:0.8em;
+}
